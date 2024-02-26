@@ -1,10 +1,11 @@
-package com.app.eazybank.service;
+package com.app.eazybank.service.impl;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.app.eazybank.entity.Customer;
 import com.app.eazybank.repository.CustomerRepository;
+import com.app.eazybank.service.CustomerService;
 
 import lombok.extern.slf4j.Slf4j;
 
