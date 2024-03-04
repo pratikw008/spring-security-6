@@ -1,6 +1,6 @@
 services:
   eazybank-mysql-db:
-    image: 'mysql:latest'
+    image: 'mysql:8.3.0'
     restart: always
     environment:
       - 'MYSQL_DATABASE=eazybank-db'
